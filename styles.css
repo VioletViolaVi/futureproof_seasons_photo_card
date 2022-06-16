@@ -63,57 +63,29 @@ body {
 }
 
 /**************************************************** weather paras */
-.weather-bg p {
+.weather-bg figcaption {
   font-size: 1.5rem;
-  height: 9rem;
-  width: 15rem;
-  padding-top: 6rem;
-  cursor: pointer;
-}
-
-.weather-bg p:hover {
-  font-size: 2rem;
-  font-weight: 900;
 }
 
 .spring {
-  background-color: #32cd32;
   color: #fff;
 }
 
 .summer {
-  background-color: #ffa500;
   color: #000;
 }
 
 .autumn {
-  background-color: #cd853f;
   color: #fff;
 }
 
 .winter {
-  background-color: #fffafa;
   color: #000;
 }
 
 @media (min-width: 600px) {
-  .weather-bg p {
-    width: 32rem;
+  .weather-bg figcaption {
     font-size: 2rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .weather-bg p {
-    width: 13rem;
-    height: 30rem;
-    padding-top: 25rem;
-  }
-}
-
-@media (min-width: 1285px) {
-  .weather-bg p {
-    width: 18rem;
   }
 }
 
