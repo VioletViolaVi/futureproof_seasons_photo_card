@@ -1,0 +1,152 @@
+/**************************************************** custom default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: #000;
+}
+
+body {
+  cursor: default;
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: #d3d3d3;
+  border: solid 0.5rem #87cefa;
+  height: 100vh;
+}
+
+/**************************************************** seasons card bg */
+.seasons-card-bg {
+  text-align: center;
+}
+
+/**************************************************** title */
+.main-title {
+  margin: 1.5rem 0;
+}
+
+.main-title h1 {
+  font-size: 2rem;
+  color: #00008b;
+}
+
+@media (min-width: 600px) {
+  .main-title {
+    margin: 1rem 0;
+  }
+
+  .main-title h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .main-title {
+    margin: 4rem 0 0;
+  }
+}
+
+/**************************************************** weather bg */
+.weather-bg {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  text-align: center;
+  grid-row-gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .weather-bg {
+    margin-top: 5rem;
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+/**************************************************** weather paras */
+.weather-bg p {
+  font-size: 1.5rem;
+  height: 9rem;
+  width: 15rem;
+  padding-top: 6rem;
+  cursor: pointer;
+}
+
+.weather-bg p:hover {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.spring {
+  background-color: #32cd32;
+  color: #fff;
+}
+
+.summer {
+  background-color: #ffa500;
+  color: #000;
+}
+
+.autumn {
+  background-color: #cd853f;
+  color: #fff;
+}
+
+.winter {
+  background-color: #fffafa;
+  color: #000;
+}
+
+@media (min-width: 600px) {
+  .weather-bg p {
+    width: 32rem;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .weather-bg p {
+    width: 13rem;
+    height: 30rem;
+    padding-top: 25rem;
+  }
+}
+
+@media (min-width: 1285px) {
+  .weather-bg p {
+    width: 18rem;
+  }
+}
+
+/**************************************************** weather img */
+
+.weather-img {
+  height: 9rem;
+  width: 15rem;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .weather-img {
+    width: 32rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .weather-img {
+    width: 13rem;
+    height: 30rem;
+  }
+}
+
+@media (min-width: 1285px) {
+  .weather-img {
+    width: 18rem;
+  }
+}
