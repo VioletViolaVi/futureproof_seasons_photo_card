@@ -1,4 +1,4 @@
-# Futureproof Seasons Card
+# Futureproof Seasons Photo Card
 
 - This project is based on the creation of a Seasons Photo card. It was assigned by Futureproof. It uses HTML5 & CSS3 to create the static look. Unsplash was used to provide the images.
 
