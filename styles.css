@@ -62,23 +62,26 @@ body {
   }
 }
 
-/**************************************************** weather paras */
+/**************************************************** captions */
+.weather-bg figure {
+  position: relative;
+  float: left;
+}
+
 .weather-bg figcaption {
   font-size: 1.5rem;
+  left: 5rem;
+  float: left;
+  position: absolute;
+  top: 6rem;
 }
 
-.spring {
-  color: #fff;
-}
-
-.summer {
-  color: #000;
-}
-
+.spring,
 .autumn {
   color: #fff;
 }
 
+.summer,
 .winter {
   color: #000;
 }
@@ -86,6 +89,20 @@ body {
 @media (min-width: 600px) {
   .weather-bg figcaption {
     font-size: 2rem;
+    left: 13rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .weather-bg figcaption {
+    left: 3rem;
+    top: 24rem;
+  }
+}
+
+@media (min-width: 1285px) {
+  .weather-bg figcaption {
+    left: 6rem;
   }
 }
 
