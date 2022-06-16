@@ -113,14 +113,6 @@ body {
   width: 15rem;
 }
 
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
 @media (min-width: 600px) {
   .weather-img {
     width: 32rem;
